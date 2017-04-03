@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        {
+            "Action":"UPSERT",
+            "ResourceRecordSet": {
+                "AliasTarget": {
+                    "HostedZoneId": "ZUKV2LPPLBWUA", 
+                    "EvaluateTargetHealth": false, 
+                    "DNSName": "d3mi9s9soxz1bh.cloudfront.net."
+                }, 
+                "Type": "A", 
+                "Name": "hrsleadership.com."
+            }
+        },{
+            "Action":"UPSERT",
+            "ResourceRecordSet": {
+                "ResourceRecords": [
+                    {
+                        "Value": "d3mi9s9soxz1bh.cloudfront.net"
+                    }
+                ],
+                "Type": "CNAME",
+                "Name": "www.hrsleadership.com.",
+                "TTL": 300
+            }
+        }
+    ]
+}

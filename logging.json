@@ -1,0 +1,22 @@
+{
+  "LoggingEnabled": {
+    "TargetBucket": "leadershipbucket",
+    "TargetPrefix": "leadershiplogs/",
+    "TargetGrants": [
+      {
+        "Grantee": {
+          "Type": "AmazonCustomerByEmail",
+          "EmailAddress": "jedidiae@amazon.com"
+        },
+        "Permission": "FULL_CONTROL"
+      },
+      {
+        "Grantee": {
+          "Type": "Group",
+          "URI": "http://acs.amazonaws.com/groups/global/AllUsers"
+        },
+        "Permission": "READ"
+      }
+    ]
+  }
+}
